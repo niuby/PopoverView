@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BD81BF3222E558D00DFCD0D /* QTTPopoverOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD81BF2222E558D00DFCD0D /* QTTPopoverOption.m */; };
+		9BD81BF6222E569D00DFCD0D /* QTTPopoverContainerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD81BF5222E569D00DFCD0D /* QTTPopoverContainerTableView.m */; };
+		9BD81BF9222E56D300DFCD0D /* QTTPopoverTableviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD81BF8222E56D300DFCD0D /* QTTPopoverTableviewCell.m */; };
 		9BDB65D6222D2720007BD934 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB65D5222D2720007BD934 /* AppDelegate.m */; };
 		9BDB65D9222D2720007BD934 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB65D8222D2720007BD934 /* ViewController.m */; };
 		9BDB65DC222D2720007BD934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB65DA222D2720007BD934 /* Main.storyboard */; };
 		9BDB65DE222D2721007BD934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB65DD222D2721007BD934 /* Assets.xcassets */; };
 		9BDB65E1222D2721007BD934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB65DF222D2721007BD934 /* LaunchScreen.storyboard */; };
 		9BDB65E4222D2721007BD934 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB65E3222D2721007BD934 /* main.m */; };
+		9BDB65ED222D276E007BD934 /* QTTPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB65EC222D276E007BD934 /* QTTPopoverView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9BD81BF1222E558D00DFCD0D /* QTTPopoverOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTTPopoverOption.h; sourceTree = "<group>"; };
+		9BD81BF2222E558D00DFCD0D /* QTTPopoverOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTTPopoverOption.m; sourceTree = "<group>"; };
+		9BD81BF4222E569D00DFCD0D /* QTTPopoverContainerTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTTPopoverContainerTableView.h; sourceTree = "<group>"; };
+		9BD81BF5222E569D00DFCD0D /* QTTPopoverContainerTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTTPopoverContainerTableView.m; sourceTree = "<group>"; };
+		9BD81BF7222E56D300DFCD0D /* QTTPopoverTableviewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTTPopoverTableviewCell.h; sourceTree = "<group>"; };
+		9BD81BF8222E56D300DFCD0D /* QTTPopoverTableviewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTTPopoverTableviewCell.m; sourceTree = "<group>"; };
 		9BDB65D1222D2720007BD934 /* QTTPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTTPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDB65D4222D2720007BD934 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BDB65D5222D2720007BD934 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +36,8 @@
 		9BDB65E0222D2721007BD934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BDB65E2222D2721007BD934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BDB65E3222D2721007BD934 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BDB65EB222D276E007BD934 /* QTTPopoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTTPopoverView.h; sourceTree = "<group>"; };
+		9BDB65EC222D276E007BD934 /* QTTPopoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTTPopoverView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +74,27 @@
 				9BDB65D5222D2720007BD934 /* AppDelegate.m */,
 				9BDB65D7222D2720007BD934 /* ViewController.h */,
 				9BDB65D8222D2720007BD934 /* ViewController.m */,
+				9BDB65EA222D2749007BD934 /* QTTPopover */,
 				9BDB65DA222D2720007BD934 /* Main.storyboard */,
 				9BDB65DD222D2721007BD934 /* Assets.xcassets */,
 				9BDB65DF222D2721007BD934 /* LaunchScreen.storyboard */,
 				9BDB65E2222D2721007BD934 /* Info.plist */,
 				9BDB65E3222D2721007BD934 /* main.m */,
+			);
+			path = QTTPopover;
+			sourceTree = "<group>";
+		};
+		9BDB65EA222D2749007BD934 /* QTTPopover */ = {
+			isa = PBXGroup;
+			children = (
+				9BD81BF1222E558D00DFCD0D /* QTTPopoverOption.h */,
+				9BD81BF2222E558D00DFCD0D /* QTTPopoverOption.m */,
+				9BDB65EB222D276E007BD934 /* QTTPopoverView.h */,
+				9BDB65EC222D276E007BD934 /* QTTPopoverView.m */,
+				9BD81BF4222E569D00DFCD0D /* QTTPopoverContainerTableView.h */,
+				9BD81BF5222E569D00DFCD0D /* QTTPopoverContainerTableView.m */,
+				9BD81BF7222E56D300DFCD0D /* QTTPopoverTableviewCell.h */,
+				9BD81BF8222E56D300DFCD0D /* QTTPopoverTableviewCell.m */,
 			);
 			path = QTTPopover;
 			sourceTree = "<group>";
@@ -141,9 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD81BF9222E56D300DFCD0D /* QTTPopoverTableviewCell.m in Sources */,
 				9BDB65D9222D2720007BD934 /* ViewController.m in Sources */,
 				9BDB65E4222D2721007BD934 /* main.m in Sources */,
+				9BD81BF3222E558D00DFCD0D /* QTTPopoverOption.m in Sources */,
+				9BDB65ED222D276E007BD934 /* QTTPopoverView.m in Sources */,
 				9BDB65D6222D2720007BD934 /* AppDelegate.m in Sources */,
+				9BD81BF6222E569D00DFCD0D /* QTTPopoverContainerTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +319,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QTTPopover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QTTPopover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
